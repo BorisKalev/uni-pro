@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const inter = localFont({
+  src: "./fonts/Inter-Regular.woff",
+  variable: "--font-inter",
+  weight: "400", // Regular weight
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const interBold = localFont({
+  src: "./fonts/Inter-Bold.woff",
+  variable: "--font-inter-bold",
+  weight: "700", // Bold weight
 });
 
 export const metadata: Metadata = {
@@ -26,7 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${interBold.variable} antialiased`}
+        style={{ fontFamily: "Inter, sans-serif" }} // Change the font here
       >
         {children}
       </body>

@@ -12,6 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'red-black-center': 'linear-gradient(to right, #171717 0%, #f56565 50%, #171717 100%)',
+      },
+      skew: {
+        '20': '20deg',
+      }
     },
   },
   plugins: [],

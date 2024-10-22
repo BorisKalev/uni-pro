@@ -10,7 +10,7 @@ export default function Header() {
           alt="Uni-Pro-Logo"
           className="w-[200px] h-[130px] object-contain"
         />
-        <div className="flex items-center gap-16">
+        <div className="flex items-center gap-12">
           <p>About</p>
           <p>Gallery</p>
           <p>Pricing</p>
