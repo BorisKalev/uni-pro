@@ -11,9 +11,9 @@ export default function Header() {
           className="w-[200px] h-[130px] object-contain"
         />
         <div className="flex items-center gap-12">
-          <p>About</p>
-          <p>Gallery</p>
-          <p>Pricing</p>
+          <p>À propos de nous</p>
+          <p>Gallerie</p>
+          <p>Prix</p>
           <p>Blog</p>
           <p>Contact</p>
         </div>
