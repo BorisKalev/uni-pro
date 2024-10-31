@@ -1,4 +1,4 @@
-import { transmission, brake, oilchange } from "@/app/images/index";
+import { services } from "@/app/constants/index";
 import Image from "next/image";
 
 export default function QueProposonsNous() {
@@ -13,21 +13,14 @@ export default function QueProposonsNous() {
         </div>
 
         <div className="flex items-center justify-center mt-10">
-          <Image
-            src={brake}
-            alt="brake change"
-            className="w-[300px] h-[300px] object-contain"
-          ></Image>
-          <Image
-            src={oilchange}
-            alt="brake change"
-            className="w-[300px] h-[300px] object-contain"
-          ></Image>
-          <Image
-            src={transmission}
-            alt="brake change"
-            className="w-[300px] h-[300px] object-contain"
-          ></Image>
+          {services.map((service) => (
+            <Image
+              src={service.img}
+              alt={service.title}
+              key={service.id}
+              className="w-[300px] h-[300px] object-contain grayscale"
+            ></Image>
+          ))}
         </div>
       </div>
     </section>
