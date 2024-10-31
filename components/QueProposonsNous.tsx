@@ -1,3 +1,8 @@
+import brake from "@/app/images/brake-change.jpg";
+import oilchange from "@/app/images/oil-change.jpg";
+import transmission from "@/app/images/transmission-repair.jpg";
+import Image from "next/image";
+
 export default function QueProposonsNous() {
   return (
     <section className="bg-[#333333]">
@@ -9,7 +14,23 @@ export default function QueProposonsNous() {
           <div className="bg-gradient-to-l from-red-600 to-[#333333] h-[2px] mt-3" />
         </div>
 
-        <div className="flex"></div>
+        <div className="flex items-center justify-center mt-10">
+          <Image
+            src={brake}
+            alt="brake change"
+            className="w-[350px] h-[300px]"
+          ></Image>
+          <Image
+            src={oilchange}
+            alt="brake change"
+            className="w-[350px] h-[300px]"
+          ></Image>
+          <Image
+            src={transmission}
+            alt="brake change"
+            className="w-[350px] h-[300px]"
+          ></Image>
+        </div>
       </div>
     </section>
   );
