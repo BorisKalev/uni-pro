@@ -5,12 +5,12 @@ import "./globals.css";
 const inter = localFont({
   src: "./fonts/Inter-Regular.woff",
   variable: "--font-inter",
-  weight: "400", // Regular weight
+  weight: "400",
 });
 const interBold = localFont({
   src: "./fonts/Inter-Bold.woff",
   variable: "--font-inter-bold",
-  weight: "700", // Bold weight
+  weight: "700",
 });
 
 export const metadata: Metadata = {
