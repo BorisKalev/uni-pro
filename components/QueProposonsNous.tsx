@@ -1,6 +1,4 @@
-import brake from "@/app/images/brake-change.jpg";
-import oilchange from "@/app/images/oil-change.jpg";
-import transmission from "@/app/images/transmission-repair.jpg";
+import { transmission, brake, oilchange } from "@/app/images/index";
 import Image from "next/image";
 
 export default function QueProposonsNous() {
@@ -18,17 +16,17 @@ export default function QueProposonsNous() {
           <Image
             src={brake}
             alt="brake change"
-            className="w-[350px] h-[300px]"
+            className="w-[300px] h-[300px] object-contain"
           ></Image>
           <Image
             src={oilchange}
             alt="brake change"
-            className="w-[350px] h-[300px]"
+            className="w-[300px] h-[300px] object-contain"
           ></Image>
           <Image
             src={transmission}
             alt="brake change"
-            className="w-[350px] h-[300px]"
+            className="w-[300px] h-[300px] object-contain"
           ></Image>
         </div>
       </div>
