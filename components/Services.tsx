@@ -1,7 +1,7 @@
 import { services } from "@/app/constants/index";
 import Image from "next/image";
-
-export default function QueProposonsNous() {
+import { GoArrowUpRight } from "react-icons/go";
+export default function Services() {
   return (
     <section className="bg-[#333333]">
       <div className="lg:max-w-6xl mx-auto">
@@ -24,8 +24,9 @@ export default function QueProposonsNous() {
                   className="object-contain grayscale group-hover:grayscale-0"
                 />
 
-                <div className="absolute inset-0 flex items-center justify-center top-[130%] text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                <div className="absolute inset-0 flex items-center justify-center top-[10%] text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
                   <h1>Voir plus</h1>
+                  <GoArrowUpRight className="" />
                 </div>
               </div>
             </div>
