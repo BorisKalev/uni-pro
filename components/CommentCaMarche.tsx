@@ -1,9 +1,16 @@
 import React from "react";
-
+import Circle from "@/UI/Circle";
 export default function CommentCaMarche() {
   return (
-    <section className="lg:max-w-6xl mx-auto flex flex-col z-0 items-center justify-center py-28 sm:pt-32 transition-all animate-in">
-      <h1>Comment ca marche</h1>
+    <section className="lg:max-w-6xl py-28 sm:pt-32 mx-auto ">
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-red-500 tracking-wider">Comment ca marche</h1>
+        <h1 className="text-3xl font-bold">Notre processus de Buissness</h1>
+      </div>
+
+      <div className="grid grid-rows-3">
+        <Circle />
+      </div>
     </section>
   );
 }
