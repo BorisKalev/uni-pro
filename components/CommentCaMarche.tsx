@@ -8,7 +8,7 @@ export default function CommentCaMarche() {
         <h1 className="text-3xl font-bold">Notre processus de Buissness</h1>
       </div>
 
-      <div className="grid grid-rows-3">
+      <div className="grid grid-rows-3 mt-10">
         <Circle />
       </div>
     </section>

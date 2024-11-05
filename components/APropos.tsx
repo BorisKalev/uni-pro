@@ -19,7 +19,7 @@ export default function Apropos() {
             offrir des services de qualité, garantissant la fiabilité et la
             sécurité de votre véhicule. Faites confiance à notre expérience!
           </p>
-          <div className="inline-flex items-center bg-red-600 px-4 py-2 mt-5 rounded-md hover:cursor-pointer">
+          <div className="inline-flex items-center bg-red-600 px-4 py-2 mt-10 rounded-md hover:cursor-pointer">
             <button className="">Apprendre Plus</button>
             <GoArrowUpRight className="ml-1" />
           </div>
