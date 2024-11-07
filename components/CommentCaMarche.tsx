@@ -51,19 +51,20 @@ export default function CommentCaMarche() {
         <h1 className="text-3xl font-bold mt-2">Notre processus de Business</h1>
       </div>
 
-      <div className="grid grid-cols-3 gap-10 justify-items-center mt-10">
+      <div className="grid grid-cols-3 gap-10 justify-items-center mt-16">
         {circles.slice(0, 3).map((circle, index) => (
           <div
             key={circle.id}
             className="flex flex-col items-center text-center max-w-xs"
           >
             <Circle number={index + 1} Icon={circle.icon} />
+
             <h2 className="font-bold mt-4">{circle.title}</h2>
-            <p className="text-gray-400 mt-2">{circle.description}</p>
+            <p className="text-gray-400 mt-5 text-sm">{circle.description}</p>
           </div>
         ))}
 
-        <div className="col-span-3 grid grid-cols-2 gap-10 justify-center mt-10">
+        <div className="col-span-3 grid grid-cols-2 gap-12 justify-center mt-10">
           {circles.slice(3, 5).map((circle, index) => (
             <div
               key={circle.id}
@@ -71,7 +72,7 @@ export default function CommentCaMarche() {
             >
               <Circle number={index + 4} Icon={circle.icon} />
               <h2 className="font-bold mt-4">{circle.title}</h2>
-              <p className="text-gray-400 mt-2">{circle.description}</p>
+              <p className="text-gray-400 mt-5 text-sm">{circle.description}</p>
             </div>
           ))}
         </div>
