@@ -24,7 +24,7 @@ export default function Hero() {
         </p>
       </div>
 
-      <div className="bg-red-black-center from-red-500 to-[##171717] h-[1px] mt-24" />
+      <div className="bg-red-black-center from-red-500 to-[##171717] h-[5px] mt-24" />
     </section>
   );
 }

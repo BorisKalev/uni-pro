@@ -7,7 +7,7 @@ export default function Services() {
       <div className="lg:max-w-6xl mx-auto">
         <div className="text-right pt-16">
           <p className="text-red-600 text-sm">QUE PROPOSONS-NOUS?</p>
-          <h1 className="text-3xl tracking-wide ">Nos services</h1>
+          <h1 className="text-3xl tracking-wide font-bold">Nos services</h1>
           <button className="underline mt-6">Voir plus</button>
           <div className="bg-gradient-to-l from-red-600 to-[#333333] h-[2px] mt-3" />
         </div>
@@ -17,7 +17,7 @@ export default function Services() {
             <div key={service.id} className="flex flex-col items-center">
               <h1 className="text-center font-semibold">{service.title}</h1>
 
-              <div className="relative mt-5 mb-5 w-[300px] h-auto rounded-lg overflow-hidden group hover:border-x-8 hover:border-t-8 hover:border-b-[55px] hover:border-red-600 transition-all duration-500 z-10">
+              <div className="relative mt-5 mb-5 w-[300px] h-auto hover:rounded-lg overflow-hidden group hover:border-x-8 hover:border-t-8 hover:border-b-[55px] hover:border-red-600 transition-all duration-500 z-10">
                 <Image
                   src={service.img}
                   alt={service.title}
