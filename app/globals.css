@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --background: #171717;
@@ -34,20 +34,20 @@ body {
     @apply text-black bg-transparent;
   }
 
-  .logo-ticker{
+  .logo-ticker {
     @apply h-8 w-auto;
   }
 
-  .tag{
-    @apply text-sm inline-flex border border-[#E53935]/10 px-3 py-1 rounded-lg tracking-tight text-white;
+  .tag {
+    @apply text-sm inline-flex border border-[#FFFFFF]/10 px-3 py-1 rounded-lg tracking-tight text-red-600;
   }
 
   .section-title {
-    @apply text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text;
+    @apply text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-t from-gray-300 to-[#aa020a] text-transparent bg-clip-text;
   }
 
   .section-description {
-    @apply text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E];
+    @apply text-center text-[22px] leading-[30px] tracking-tight text-[#ffffff];
   }
 
   .section-heading {
