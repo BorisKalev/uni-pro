@@ -17,63 +17,63 @@ const testimonials = [
     text: "Le service est impeccable ! Ils ont rapidement diagnostiqué le problème de ma voiture et l'ont réparée en un rien de temps.",
     imageSrc: avatar1.src,
     name: "Alexandre Dupuis",
-    username: "@alexdupuis",
+    username: "alex.dupuis91",
   },
   {
     id: 2,
     text: "Je fais confiance à ce garage depuis des années. Toujours professionnel et honnête dans leurs évaluations.",
     imageSrc: avatar2.src,
     name: "Sophie Tremblay",
-    username: "@sophietremblay",
+    username: "sophie_tremb23",
   },
   {
     id: 3,
     text: "Leur inspection avant achat m'a évité de gros problèmes avec une voiture d'occasion. Merci pour votre expertise !",
     imageSrc: avatar3.src,
     name: "Marc Lemoine",
-    username: "@marclemoine",
+    username: "marc.lemoine",
   },
   {
     id: 4,
     text: "L'équipe est accueillante et les réparations sont toujours effectuées dans les délais annoncés. Une vraie tranquillité d'esprit.",
     imageSrc: avatar4.src,
     name: "Isabelle Morel",
-    username: "@isamorel",
+    username: "isa_morel_75",
   },
   {
     id: 5,
     text: "Je suis ravi du résultat. Ils ont même lavé ma voiture après les réparations !",
     imageSrc: avatar5.src,
     name: "Thomas Gagnon",
-    username: "@thomasgagnon",
+    username: "thomasg90",
   },
   {
     id: 6,
     text: "Leur système de rendez-vous en ligne est super pratique, et les techniciens expliquent toujours clairement les réparations nécessaires.",
     imageSrc: avatar6.src,
     name: "Claire Pelletier",
-    username: "@clairepelt",
+    username: "c.pelletier1988",
   },
   {
     id: 7,
     text: "Une équipe passionnée et des prix transparents. C'est rare de trouver un garagiste aussi fiable.",
     imageSrc: avatar7.src,
     name: "Julien Rousseau",
-    username: "@julrousseau",
+    username: "julrouss",
   },
   {
     id: 8,
     text: "Ils ont réparé mon moteur en urgence avant un long voyage. Je recommande sans hésitation.",
     imageSrc: avatar8.src,
     name: "Nathalie Caron",
-    username: "@nathcaron",
+    username: "nathalie.caron_01",
   },
   {
     id: 9,
     text: "Leur service après-vente est excellent. Ils répondent toujours rapidement à mes questions.",
     imageSrc: avatar9.src,
     name: "François Bergeron",
-    username: "@franbergeron",
+    username: "francois.b.17",
   },
 ];
 
@@ -136,10 +136,6 @@ export const Testimonials = () => {
     <section className="">
       <div className="container">
         <div className="section-heading">
-          <div className="flex justify-center">
-            <div className="tag mt-10">Témoignages</div>
-          </div>
-
           <h2 className="section-title mt-5">Quesque nos clients disent</h2>
           <p className="section-description mt-5">
             De la qualité de notre service à notre expertise technique, nos
