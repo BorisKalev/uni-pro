@@ -57,4 +57,8 @@ body {
   .card {
     @apply p-10 border border-[#E53935]/10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full bg-[#333333];
   }
+
+  input {
+    @apply text-white px-3 py-2 bg-[#171717] border-gray-400 border rounded-xl;
+  }
 }
