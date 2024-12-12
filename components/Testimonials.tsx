@@ -135,8 +135,10 @@ export const Testimonials = () => {
   return (
     <section className="">
       <div className="container">
-        <div className="section-heading">
-          <h2 className="section-title mt-5">Quesque nos clients disent</h2>
+        <div className="section-heading pt-10 text-red-600">
+          <h2 className="mt-10 text-center text-3xl">
+            Quesque nos clients disent
+          </h2>
           <p className="section-description mt-5">
             De la qualité de notre service à notre expertise technique, nos
             clients nous font confiance pour entretenir et réparer leurs
