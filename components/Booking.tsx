@@ -1,5 +1,4 @@
-import Image from "next/image";
-import deal from "@/app/images/close-up-sales-manager-black-suit-selling-car-customer.jpg";
+import { GoArrowUpRight } from "react-icons/go";
 export const Booking = () => {
   return (
     <div className="lg:max-w-6xl mx-auto pb-28">
@@ -69,6 +68,12 @@ export const Booking = () => {
             </label>
           </div>
         </div>
+      </div>
+      <div className="pt-12">
+        <button className="bg-red-600 px-6 py-2 rounded-md text-white font-medium text-lg hover:bg-red-700 transition-all duration-300 flex items-center mx-auto gap-2">
+          Make Appointment
+          <GoArrowUpRight />
+        </button>
       </div>
     </div>
   );
