@@ -3,7 +3,7 @@ import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
 export default function Services() {
   return (
-    <section className="bg-[#333333]">
+    <section className="bg-[#202020]">
       <div className="lg:max-w-6xl mx-auto">
         <div className="text-right pt-16">
           <p className="text-red-600 text-sm">QUE PROPOSONS-NOUS?</p>

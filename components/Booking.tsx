@@ -1,3 +1,4 @@
+import { section } from "framer-motion/client";
 import { GoArrowUpRight } from "react-icons/go";
 export const Booking = () => {
   return (
@@ -27,7 +28,7 @@ export const Booking = () => {
           <div className="grid grid-cols-2 lg:grid-cols-3 mt-5 gap-y-5 gap-x-4">
             <label className="flex items-center gap-2">
               <input type="checkbox" value="Air Conditioner" />
-              Air Conditioner
+              Air Conditionner
             </label>
             <label className="flex items-center gap-2">
               <input type="checkbox" value="Brake Repair" />

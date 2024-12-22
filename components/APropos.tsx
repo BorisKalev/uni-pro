@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Apropos() {
   return (
-    <section className="bg-[#333333]">
+    <section className="bg-[#202020]">
       <div className="lg:max-w-6xl mx-auto pb-28">
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
           {/* Section de texte et bouton */}

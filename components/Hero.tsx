@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import voiture from "@/app/images/voiture.png";
 export default function Hero() {
   return (
     <section className="lg:max-w-6xl mx-auto ">
