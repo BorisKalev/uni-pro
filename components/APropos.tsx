@@ -37,12 +37,12 @@ export default function Apropos() {
             <Image
               src={mechanic}
               alt="Mechanic working on car"
-              className="absolute right-[50%] top-[40%] w-[300px] h-[350px] object-cover rounded-xl grayscale"
+              className="absolute right-[50%] top-[40%] w-[300px] h-[350px] object-cover rounded-xl grayscale hover:grayscale-0"
             />
             <Image
               src={underCar}
               alt="Mechanic under car"
-              className="w-[300px] h-[350px] object-cover rounded-xl grayscale"
+              className="w-[300px] h-[350px] object-cover rounded-xl grayscale hover:grayscale-0"
             />
           </div>
         </div>
