@@ -9,7 +9,7 @@ export default function Services() {
           <p className="text-red-600 text-sm">QUE PROPOSONS-NOUS?</p>
           <h1 className="text-3xl tracking-wide font-bold">Nos services</h1>
           <button className="underline mt-6">Voir plus</button>
-          <div className="bg-gradient-to-l from-red-600 to-[#333333] h-[2px] mt-3" />
+          <div className="bg-gradient-to-l from-red-600 to-[#202020] h-[2px] mt-3" />
         </div>
 
         <div className="flex items-center justify-center mt-[8rem]">

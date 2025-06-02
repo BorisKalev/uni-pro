@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        'red-black-center': 'linear-gradient(to right, #171717 0%, #f56565 50%, #171717 100%)',
+        'red-black-center': 'linear-gradient(to right, #0a0a0a 0%, #f56565 50%, #0a0a0a 100%)',
       },
       skew: {
         '20': '20deg',
